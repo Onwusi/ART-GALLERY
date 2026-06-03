@@ -1,0 +1,138 @@
+header {
+    text-align: center;
+    padding: 25px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #0c0c0c;
+    color: white;
+}
+
+button {
+   background: #007bff;
+   color: white;
+   border: none;
+   padding: 10px 20px;
+   cursor: pointer;
+   width: 100%;
+   transition: background 0.3s;
+}
+
+button:hover {
+    background: #0056b3;
+}
+.body1 {
+    display: flexbox;
+    padding: 50px;
+}
+
+.product1 {
+    color: white;
+    width: 280px;
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px;
+    transition: all 0.3s ease;
+}
+.product2 {
+    width: 280px;
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px;
+    transition: all 0.3s ease;
+}
+.product3 {
+    width: 280px;
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px;
+    transition: all 0.3s ease;
+}
+.product4 {
+    width: 280px;
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px;
+    transition: all 0.3s ease;
+}
+
+img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-size: 20px;
+    color: #e74c3c;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.ginalori-price {
+    text-decoration: line-through;
+    color: #999;
+    font-size: 14px;
+}
+
+span {
+    background: #e74c3c;
+    color: white;
+    padding: 3px 8px;
+    border-radius: 20px;
+    font-size: 12px;
+}
+
+.description {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.4;
+    margin: 10px 0;
+
+}
+
+.product1:hover {
+    transform: translateX(-9px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    border-color: #007bff;
+}
+.product2:hover {
+    transform: translateX(-9px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    border-color: #007bff;
+}
+.product3:hover {
+    transform: translateX(-9px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    border-color: #007bff;
+}
+.product4:hover {
+    transform: translateX(-9px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    border-color: #007bff;
+}
+
+footer {
+   text-align: center;
+   margin: 15px;
+   padding: 14px;
+}
